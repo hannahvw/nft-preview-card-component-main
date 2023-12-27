@@ -46,7 +46,7 @@ img {
 .container {
   margin-bottom: 2rem;
   background-color: var(--neutral-color-card-bg-900);
-  max-width: 90%;
+  max-width: 375px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -116,4 +116,10 @@ hr {
 
 .author-name {
   color: var(--neutral-color-100);
+}
+
+.active-state:hover,
+.active-state:active {
+  cursor: pointer;
+  color: var(--primary-color-400);
 }
